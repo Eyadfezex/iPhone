@@ -4,7 +4,6 @@ import {
   highlightFirstVideo,
   highlightFourthVideo,
   highlightSecondVideo,
-  highlightThirdVideo,
   whiteImg,
   yellowImg,
 } from "../utils";
@@ -35,7 +34,7 @@ export const hightlightsSlides = [
       "longest optical zoom in",
       "iPhone ever. Far out.",
     ],
-    video: highlightThirdVideo,
+    video: highlightSecondVideo,
     videoDuration: 2,
   },
   {
