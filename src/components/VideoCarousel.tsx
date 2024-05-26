@@ -51,7 +51,7 @@ const VideoCarousel = () => {
     }
   }, [startPlay, videoId, isPlaying, loadedData]);
 
-  const handleLoadedMetadata = useCallback((i: number, e: unknown) => {
+  const handleLoadedMetadata = useCallback((e: unknown) => {
     setLoadedData((prev) => [...prev, e]);
   }, []);
 
@@ -187,7 +187,7 @@ const VideoCarousel = () => {
                       isPlaying: true,
                     }));
                   }}
-                  onLoadedMetadata={(e) => handleLoadedMetadata(i, e)}
+                  onLoadedMetadata={(e) => handleLoadedMetadata(e)}
                 >
                   <source src={list.video} type="video/mp4" />
                 </video>
