@@ -99,7 +99,7 @@ canvas {
   }
 
   .hiw-video {
-    @apply absolute w-[95%] 2xl:w-[65%] h-[90%] rounded-[56px] overflow-hidden;
+    @apply absolute w-[95%] 2xl:w-[65%] h-[90%] rounded-[20px] 2xl:rounded-[25px] overflow-hidden;
   }
 
   .hiw-text-container {
