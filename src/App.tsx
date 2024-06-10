@@ -6,7 +6,7 @@ import HowItWorks from "./components/HowItWorks";
 import Navbar from "./components/Navbar";
 function App() {
   return (
-    <main>
+    <main className=" overflow-x-hidden">
       <Navbar />
       <Hero />
       <Highlights />
