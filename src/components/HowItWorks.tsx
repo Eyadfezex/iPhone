@@ -18,7 +18,7 @@ const HowItWorks = () => {
       ease: "power2.inOut",
     });
     animateWithGsap({
-      target: ".g_fadIn",
+      target: ".g_fadeIn",
       animationProps: { opacity: 1, y: 0, duration: 1, ease: "power2.inOut" },
     });
   }, []);
